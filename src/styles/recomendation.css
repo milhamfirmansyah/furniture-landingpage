@@ -1,0 +1,145 @@
+.recomendation-container {
+  display: flex;
+  gap: 48px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.recomendation-left {
+  display: flex;
+  gap: 24px;
+}
+
+.recomendation-left img {
+  height: 523px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.recomendation-right {
+  width: 433px;
+}
+
+.recomendation-categories {
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: #2f241f;
+  margin-bottom: 32px;
+}
+
+.recomendation-right h1 {
+  color: #2f241f;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 52px;
+}
+
+.bedroom {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+
+.recomendation-right div {
+  padding: 20px 24px;
+  background: #e5f0b6;
+  margin-bottom: 20px;
+}
+
+.livingroom {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  margin-bottom: 12px;
+}
+
+.recomendation-right div p {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.homeoffice,
+.gamingroom {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  padding-left: 16px;
+}
+
+.homeoffice {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .recomendation-wrapper {
+    width: 100%;
+    margin: 24px 0;
+  }
+
+  .recomendation-container {
+    flex-direction: column-reverse;
+    max-width: 304px;
+    margin: 0 auto;
+    gap: 44px;
+  }
+
+  .recomendation-categories {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    margin-bottom: 8px;
+    width: 304px;
+  }
+
+  .recomendation-right h1 {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    width: 304px;
+    margin-bottom: 44px;
+  }
+
+  .bedroom, .livingroom, .homeoffice, .gamingroom {
+    font-size: 18px;
+    letter-spacing: -0.18px;
+  }
+
+  .recomendation-right div{
+    width: 272px;
+    padding: 20px 16px;
+  }
+
+  .recomendation-left{
+    gap: 16px;
+  }
+
+  .recomendation-left img {
+    width: 103.3px;
+    height: 132px;
+  }
+}
